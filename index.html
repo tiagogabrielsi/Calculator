@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="display" disabled placeholder="0">
+        <div class="backspace-container">
+            <button id="backspace" title="Apagar">&#10006;</button>
+            <button id="expand-scientific" title="Modo científico">&#9654;</button>
+        </div>
+        <div class="buttons">
+            <button class="element" id="clear">C</button>
+            <button class="element" id="parentheses">( )</button>
+            <button class="element" id="percentage">%</button>
+            <button class="operator" id="divide">÷</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator" id="multiply">x</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator" id="minus">-</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator" id="plus">+</button>
+            <button>0</button>
+            <button>+/-</button>
+            <button>,</button>
+            <button id="equal">=</button>
+        </div>
+        <div class="scientific-buttons" style="display: none;">
+            <button id="sin">sin</button>
+            <button id="cos">cos</button>
+            <button id="tan">tan</button>
+            <button id="log">log</button>
+            <button id="sqrt">√</button>
+            <button id="pow">x<sup>y</sup></button>
+            <button id="pi">π</button>
+            <button id="e">e</button>
+        </div>
+    </div>
+    <script src="src/script/script.js"></script>
+</body>
+</html>
